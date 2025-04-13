@@ -20,7 +20,7 @@ Crawl dữ liệu sản phẩm → Lưu trữ vào HDFS (Hadoop Distributed File
 * Web Crawler: Selenium, Requests, BeautifulSoup
 * Big Data: Hadoop (HDFS - với 1 master + 1 slave node)
 * Xử lý dữ liệu: PySpark
-* Cơ sở dữ liệu: MongoDB Atlas, ElasticsearchElasticsearch
+* Cơ sở dữ liệu: MongoDB Atlas, Elasticsearch
 * DevOps: Ubuntu, Window
 * Ngôn ngữ: Python 3.10+
 * Đa luồng: Thread
