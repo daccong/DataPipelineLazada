@@ -19,7 +19,7 @@ Crawl dữ liệu sản phẩm → Lưu trữ vào HDFS (Hadoop Distributed File
 * Web Crawler: Selenium, Requests, BeautifulSoup
 * Big Data: Hadoop (HDFS - với 1 master + 1 slave node)
 * Xử lý dữ liệu: PySpark
-* Cơ sở dữ liệu: MongoDB Atlas
+* Cơ sở dữ liệu: MongoDB Atlas, ElasticsearchElasticsearch
 * DevOps: Ubuntu, Window
 * Ngôn ngữ: Python 3.10+
 * Đa luồng: Thread
@@ -248,4 +248,22 @@ với 2 IP riêng
   - Chạy toàn bộ `start-all.sh`
   - Kiểm tra jps (_có đủ 6 chương trình chạy_) 
   - Có thể truy cập HDFS trên UI `localhost:9870` truy cập Yarn `localhost:8088`
-**Đọc thêm chi tiết tại file docx**
+* **Cài đặt elasticsearch**
+  - Đọc chi tiết cách cài đặt và đưa dữ liệu vào elasticsearch  [Tại đây](Project_Lazada/Lazada_data.docx)
+  - Tải xuống elasticsearch [Tại đây](https://www.elastic.co/elasticsearch)
+
+![image](https://github.com/user-attachments/assets/3582061d-9f6f-4479-bf45-229a606adfe5)
+
+* **Trực Quan**
+  - Sau khi làm sạch dữ liệu bằng pyspark chúng ta trực quan hóa đọc thêm chi tiết [Báo cáo](Project_Lazada/Lazada_data.docx)
+* **Kết Quả**
+  
+
+  ![image](https://github.com/user-attachments/assets/b5aabe31-da87-4e72-85c8-4fbc85e9256d)
+              _Biểu đồ thể hiện giữa rating-shouldcount-review_
+
+  ![image](https://github.com/user-attachments/assets/02984b01-d7b0-4acd-aa3b-96e8875332ef)
+              
+
+
+
