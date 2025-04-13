@@ -1,5 +1,6 @@
 # 🛍️🛒DATA-PIPELINE-LAZADA
 Một hệ thống Pipeline xử lý dữ liệu từ sàn thương mại điện tử Lazada: 
+
 Crawl dữ liệu sản phẩm → Lưu trữ vào HDFS (Hadoop Distributed File System) → Xử lý bằng PySpark → Lưu kết quả vào MongoDB để phân tích hoặc hiển thị - trực quan hóa và phân tích
 --> Xem chi tiết [báo_cáo]()
 ## 📂 Mô hình hệ thống 
